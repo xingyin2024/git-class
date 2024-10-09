@@ -85,7 +85,29 @@ git init
   </a>
 </h1>
 
-Branch Creation: When you run git init, Git automatically creates a default branch. Historically, this branch has been named master. However, you can set a different default branch name, such as main, using a configuration setting (explained below).
+Branch Creation: When you run git init, Git automatically creates a default branch.
+
+Historically, this branch has been named master. However, you can set a different default branch name, such as main, using a configuration setting (explained below).
+
+```bash
+git branch -m main
+```
+
+This command renames the current branch (usually master) to main, allowing you to update branch names after initialization.
+
+**Important**
+
+- **For future reference, the command `git config --global init.defaultBranch main` ensures that whenever you initialize a new Git repository using `git init`, the default branch will be named `main` instead of the traditional `master`, aligning your workflow with modern conventions or any naming standard you prefer across all your projects.**
+
+```bash
+git config --global init.defaultBranch main
+```
+
+- **This command retrieves and displays the current default branch name configuration, confirming if main has been set.**
+
+```bash
+git config --global init.defaultBranch main
+```
 
 ---
 
