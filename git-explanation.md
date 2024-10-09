@@ -62,7 +62,11 @@ git config --list
 
 ## **4\. Basic Git Commands**
 
-Understanding Git commands is essential for managing your project effectively. Below, we'll explore each command, focusing on **what** it does and **why** it's important in your Git workflow.
+Understanding Git commands is essential for managing your project effectively. We'll explore each command, focusing on what it does and why it's important in your Git workflow.
+
+For a complete list of commands covered in this lesson, refer to the `git-commands.md file`, where you’ll find examples and detailed explanations of each command we’ll use throughout the course.
+
+If you ever need more information on a specific command, you can use `git help <command>` to display full documentation, or `git -h` for a shorter, more concise version of the command options and usage.
 
 ---
 
