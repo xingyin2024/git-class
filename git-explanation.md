@@ -149,11 +149,9 @@ One of Git's most powerful features is branching, which allows you to work on se
 
 - **Creating and Switching to a New Branch**: To create a new branch and switch to it in one step, use the git checkout -b command. This is helpful when you want to start working on a feature or bug fix in a separate branch without affecting the main branch.
 
-For example:
+  For example:
 
-    ```bash
-    git checkout -b fixBug01
-    ```
+  git checkout -b fixBug01
 
 This command creates a new branch called `fixBug01` and immediately switches to it, so you can start working in that branch right away.
 
