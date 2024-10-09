@@ -171,48 +171,45 @@ git log
 
 ---
 
-**4.7 git log --oneline**
+**4.7 - git log --oneline**
 
 - **What**: A condensed version of `git log`, showing only one line per commit (including a shortened hash and commit message).
 - **Why**: This is helpful when you want a quick overview of the commit history without all the extra details.
 
-bash
-
-Copy code
-
-`git log --oneline`
+```bash
+git log --oneline
+```
 
 ---
 
-**4.8 git diff**
+**4.8 - git diff**
 
 - **What**: Shows the differences between various states of your project (working directory vs. staging area, or staging area vs. last commit).
 - **Why**: This command allows you to compare changes before staging or committing them, ensuring that you know exactly what has been modified.
 
 Example (compare working directory and staging area):
 
-bash
-
-Copy code
-
-`git diff`
+```bash
+git diff
+```
 
 ---
 
-**4.9 git ls-files**
+**4.9 - git ls-files**
 
 - **What**: Lists the files that Git is tracking.
 - **Why**: This command helps you verify which files are currently being tracked by Git, providing insight into the content of your repository.
 
-bash
-
-Copy code
-
-`git ls-files`
+```bash
+git ls-files
+```
 
 ---
 
-**4.10 git rm --cached -r <filename>** - **What**: Removes a file or folder from the staging area without deleting it from the working directory. - **Why**: Use this command when you mistakenly add a file or folder to Git and want to stop tracking it without removing it from your project.
+**4.10 - git rm --cached -r <filename>**
+
+- **What**: Removes a file or folder from the staging area without deleting it from the working directory.
+- **Why**: Use this command when you mistakenly add a file or folder to Git and want to stop tracking it without removing it from your project.
 
 javascript
 
@@ -232,11 +229,10 @@ git rm --cached -r <foldername>
 
 ---
 
-**4.11 git config --global core.autocrlf true** (Windows) - **What**: Configures Git to automatically handle line ending conversions between Windows (CRLF) and Unix-based systems (LF). - **Why**: This prevents issues when collaborators are using different operating systems. On Windows, Git converts LF to CRLF when checking out files and converts back when committing.
+**4.11 - git config --global core.autocrlf true - (Windows)**
 
-go
-
-Copy code
+- **What**: Configures Git to automatically handle line ending conversions between Windows (CRLF) and Unix-based systems (LF).
+- **Why**: This prevents issues when collaborators are using different operating systems. On Windows, Git converts LF to CRLF when checking out files and converts back when committing.
 
 ```bash
 git config --global core.autocrlf true
@@ -244,11 +240,10 @@ git config --global core.autocrlf true
 
 ---
 
-**4.12 git config --global core.autocrlf input** (Mac/Linux) - **What**: Configures Git to convert line endings only when committing (not when checking out), keeping the line endings as-is on Unix-based systems. - **Why**: This prevents line-ending conflicts while still allowing Windows users to handle them correctly.
+**4.12 git config --global core.autocrlf input - (Mac/Linux)**
 
-go
-
-Copy code
+- **What**: Configures Git to convert line endings only when committing (not when checking out), keeping the line endings as-is on Unix-based systems.
+- **Why**: This prevents line-ending conflicts while still allowing Windows users to handle them correctly.
 
 ```bash
 git config --global core.autocrlf input
