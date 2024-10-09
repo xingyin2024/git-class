@@ -1,16 +1,16 @@
-### **8. Multi-Branching and Best Practices for Branch Naming**
+# Multi-Branching and Best Practices for Branch Naming\*\*
 
 In any collaborative project, managing multiple branches efficiently is key to ensuring smooth development and preventing conflicts. One highly recommended strategy is to maintain two **top-level branches** in your Git repository:
 
 1. **`main`**: The main branch should be reserved for code that is production-ready. All updates, whether they are features, bug fixes, or other changes, should be merged into this branch only when they are fully tested and approved.
 2. **`dev`**: The dev branch is where ongoing development takes place. All feature branches, bug fixes, or updates should be merged into `dev` first. Once changes in `dev` are stable, they can be merged into `main` for production.
 
-#### Why Use Two Top-Level Branches?
+## Why Use Two Top-Level Branches?
 
 - **Main branch for production**: Having a dedicated `main` branch ensures that the code you deploy is stable and fully tested. It is your production-ready branch.
 - **Dev branch for active development**: By keeping all active work in the `dev` branch, you isolate experimental, incomplete, or potentially unstable code from production.
 
-#### Workflow for Handling Changes
+## Workflow for Handling Changes
 
 Whenever you need to implement a new feature, fix a bug, or make any type of update to the project, follow these steps:
 
@@ -25,7 +25,7 @@ Whenever you need to implement a new feature, fix a bug, or make any type of upd
 
 ---
 
-#### Best Practices for Git Branch Naming
+## Best Practices for Git Branch Naming
 
 Having a clear and consistent branch naming convention helps in understanding the purpose of each branch. Below are some **best practices** for naming branches:
 
@@ -47,7 +47,7 @@ Having a clear and consistent branch naming convention helps in understanding th
 
 ---
 
-#### Including Ticket Numbers in Branch Names
+## Including Ticket Numbers in Branch Names
 
 In larger teams, it's common to include ticket numbers from project management tools (e.g., Jira) in the branch name. This helps to easily track the work associated with specific tasks. For example:
 
@@ -56,7 +56,7 @@ In larger teams, it's common to include ticket numbers from project management t
 
 ---
 
-#### Sample Branch Names
+## Sample Branch Names
 
 Here are a few examples of good branch names following the best practices:
 
@@ -68,7 +68,7 @@ Here are a few examples of good branch names following the best practices:
 
 ---
 
-#### Conclusion
+## Conclusion
 
 By implementing a multi-branching strategy and following clear naming conventions, you ensure that your Git workflow remains efficient and organized. Keeping a `main` and `dev` branch provides structure, while additional branches for features, bug fixes, and releases help isolate changes and maintain project stability.
 
