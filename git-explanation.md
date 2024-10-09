@@ -90,7 +90,7 @@ Git follows a specific workflow to help manage changes:
 
 1.  **Working Directory**: Where you make changes to your files.
 2.  **Staging Area**: A space where changes are prepared before they are committed. You can think of it as a "draft" of changes you want to save.
-3.  **Repository**: The saved history of your project, where committed changes are stored.
+3.  **Repository**: The saved history of your project, where committed changes are stored. Github would be where you store this repository online for easier version-control and collaboration.
 
 <h1 align="center">
   <a href="">
