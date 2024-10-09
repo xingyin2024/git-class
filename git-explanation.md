@@ -109,6 +109,14 @@ git config --global init.defaultBranch main
 git config --global init.defaultBranch main
 ```
 
+After you run the command `git config --global init.defaultBranch main` on your terminal; everytime you create a new git-repository on your local folder this is what you will see after running the command `git init` on your terminal.
+
+<h1 align="center">
+  <a href="">
+    <img src="./assets/imgs/git-init-setup-global.png" alt="Git Init example terminal">
+  </a>
+</h1>
+
 ---
 
 ### **4.2 - `git status`**
