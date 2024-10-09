@@ -75,7 +75,7 @@ Understanding Git commands is essential for managing your project effectively. B
 git init
 ```
 
-#### What happens after I input this command
+#### What happens after you input this command on your terminal (pointing to the correct folder you want to initizialize a git repository)
 
 ##### Let's look at this image:
 
