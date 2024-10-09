@@ -131,7 +131,7 @@ The staging area gives you control over what goes into each commit, allowing you
 
 ---
 
-## **6\. Branching and Merging (20 minutes)**
+## **6\. Branching and Merging**
 
 One of Git's most powerful features is branching, which allows you to work on separate versions of your project simultaneously.
 
@@ -172,3 +172,13 @@ git merge feature-branch
 ```
 
 When conflicts arise, Git marks the conflicting sections in the file. You can then manually edit these sections, stage the file, and commit the resolution.
+
+## **7\. Conclusion**
+
+In this lesson, you've learned the basics of Git, including what Git is, how it works, and how to install and configure it. You've also learned how to execute core Git commands, manage your project workflow, and work with branches for collaboration.
+
+By mastering these fundamentals, you'll be well on your way to using Git effectively in your software development projects.
+
+---
+
+**Assignment**: Practice initializing a Git repository, making changes, and using basic Git commands. Create a branch, make changes, and merge it back to the main branch to solidify your understanding.
