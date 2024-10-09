@@ -171,12 +171,6 @@ One of Git's most powerful features is branching, which allows you to work on se
 
 - **Resolving Conflicts**: If multiple people make changes to the same file on different branches, Git may produce a conflict during the merge. You will need to resolve the conflicting parts manually, and then commit the resolved changes.
 
-Example:
-
-```bash
-git merge feature-branch
-```
-
 When conflicts arise, Git marks the conflicting sections in the file. You can then manually edit these sections, stage the file, and commit the resolution.
 
 ## **7\. Conclusion**
