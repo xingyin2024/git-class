@@ -155,10 +155,17 @@ One of Git's most powerful features is branching, which allows you to work on se
   git checkout -b fixBug01
 ```
 
-- **Merging**: Once you're done working on a branch, you can merge it back into the main branch. This incorporates your changes into the main project.
+- **Merging**: Once you're done working on a branch, you can merge it back into the branch that is considered the `main` or `master` branch of your project. This incorporates your changes into the main project.
+  - First, you need to switch to the branch where you want to merge the changes from the branch you were working. Let's say we want to incorporate the changes form the branch `bugFix01` into the `main` branch.
 
 ```bash
-  git merge <branch-name>
+git switch main
+```
+
+- Now that you're on the main branch, use the git merge command to merge bugFix01 into main.
+
+```bash
+git merge bugFix01
 ```
 
 - **Resolving Conflicts**: If multiple people make changes to the same file on different branches, Git may produce a conflict during the merge. You will need to resolve the conflicting parts manually, and then commit the resolved changes.
