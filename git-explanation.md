@@ -36,7 +36,14 @@ Once installed, open a terminal (Command Prompt on Windows or Terminal on macOS/
 
 ```bash
 git config --global user.name "Your Name"
-git config --global user.email "you@example.com"`
+git config --global user.email "you@example.com"
+```
+
+Real Example
+
+```bash
+git config --global user.name "Diego Zito"
+git config --global user.email diegozito@gmail.com
 ```
 
 Set your preferred text editor (e.g., Visual Studio Code) for writing commit messages:
