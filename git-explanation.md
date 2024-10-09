@@ -109,6 +109,15 @@ For example:
 ```bash
 git add <filename>
 git commit -m "Describe what changed"
+git push origin [name of branch]
+```
+
+Real example by applying changes to the `README.md` file:
+
+```bash
+git add README.md
+git commit -m "update - expanded content of the readme file"
+git push origin main
 ```
 
 The staging area gives you control over what goes into each commit, allowing you to review your changes and commit only those you are confident in.
