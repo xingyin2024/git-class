@@ -75,6 +75,18 @@ Understanding Git commands is essential for managing your project effectively. B
 git init
 ```
 
+#### What happens after I input this command
+
+##### Let's look at this image:
+
+<h1 align="center">
+  <a href="">
+    <img src="./assets/imgs/git-init.png" alt="Git Init example terminal">
+  </a>
+</h1>
+
+Branch Creation: When you run git init, Git automatically creates a default branch. Historically, this branch has been named master. However, you can set a different default branch name, such as main, using a configuration setting (explained below).
+
 ---
 
 ### **4.2 - `git status`**
