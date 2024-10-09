@@ -151,7 +151,9 @@ One of Git's most powerful features is branching, which allows you to work on se
 
   For example:
 
+```bash
   git checkout -b fixBug01
+```
 
 This command creates a new branch called `fixBug01` and immediately switches to it, so you can start working in that branch right away.
 
