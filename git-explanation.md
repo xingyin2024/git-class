@@ -173,7 +173,7 @@ One of Git's most powerful features is branching, which allows you to work on se
 
 When conflicts arise, Git marks the conflicting sections in the file. You can then manually edit these sections, stage the file, and commit the resolution.
 
-- Scenario: Resolving a Conflict Between `main` and `bugFix01` Branches
+- Scenario: **Resolving a Conflict Between `main` and `bugFix01` Branches**
 
   1.  **You're working on the `main` branch** and make changes to `example01.md`. You add some new content related to a feature you're working on.
 
