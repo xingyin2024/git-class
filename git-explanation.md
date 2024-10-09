@@ -104,8 +104,6 @@ git status -s
 - **What**: Stages changes for the next commit. This command tells Git to include changes in the staging area, preparing them for a commit.
 - **Why**: The `git add` command gives you control over which changes to include in the next commit. You can choose to add specific files, groups of files based on patterns, or all changes at once.
 
----
-
 ### **Ways to Use `git add`:**
 
 1.  **Adding a Specific File**\
@@ -134,24 +132,20 @@ git status -s
 
     **Example**:
 
-    bash
-
-    Copy code
-
-    `git add .`
+    ```bash
+    git add .
+    ```
 
 3.  **Adding Files with a Specific Extension**\
     You can also add all files of a certain type by specifying a file extension. This is helpful when working with multiple files of the same type (e.g., all text files or markdown files).
 
-    **Example (Adding all `.txt` files)**:
+    **Example (Adding all `.md` files)**:
 
-    bash
+    ```bash
+    git add *.md
+    ```
 
-    Copy code
-
-    `git add *.txt`
-
-    This adds all text files in the current directory to the staging area.
+    This adds all `markdown` files in the current directory to the staging area.
 
     **Example (Adding all `.md` files)**:
 
