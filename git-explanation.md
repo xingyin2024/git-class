@@ -1,3 +1,5 @@
+# Introduction to Git and Working with Git
+
 #### **1\. Introduction to Git**
 
 Git is the most widely used version control system in the world. It is essential for tracking changes to code and collaborating on projects with others. In this lesson, we will cover what Git is, how it works, and how to get started using Git to manage your projects effectively.
