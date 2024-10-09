@@ -1,7 +1,5 @@
 # Git Lesson - Structured Files
 
----
-
 This lesson is divided into multiple markdown files, each offering a clear and organized path for learning Git. Below is a guide to the files and their contents, ordered by what should be read first.
 
 ## File Structure
@@ -40,8 +38,6 @@ This lesson is divided into multiple markdown files, each offering a clear and o
       - Advanced Git commands (e.g., `rebase`, `stash`, `merge`)
       - Useful combinations and flags (e.g., `git log --oneline`, `git status -s`)
       - Best practices for commit messages using CRUD conventions
-
----
 
 ## How to Use This Lesson
 
