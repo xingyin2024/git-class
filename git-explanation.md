@@ -159,27 +159,16 @@ This command creates a new branch called `fixBug01` and immediately switches to 
 
 - **Merging**: Once you're done working on a branch, you can merge it back into the main branch. This incorporates your changes into the main project.
 
-  bash
-
-  Copy code
-
-  `git merge <branch-name>`
-
-  ```bash
-  git switch <branch-name>
-  ```
-
+```bash
+  git merge <branch-name>
 ```
 
 - **Resolving Conflicts**: If multiple people make changes to the same file on different branches, Git may produce a conflict during the merge. You will need to resolve the conflicting parts manually, and then commit the resolved changes.
 
 Example:
 
-bash
-
-Copy code
-
-`git merge feature-branch`
+```bash
+git merge feature-branch
+```
 
 When conflicts arise, Git marks the conflicting sections in the file. You can then manually edit these sections, stage the file, and commit the resolution.
-```
