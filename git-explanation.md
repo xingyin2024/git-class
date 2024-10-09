@@ -24,7 +24,7 @@ Git is a distributed version control system that tracks changes in your project 
 
 Git enables you to manage your project's code efficiently and ensures that team members can collaborate effectively without losing any code or progress.
 
-#### **3\. Installing and Configuring Git (15 minutes)**
+#### **3\. Installing and Configuring Git**
 
 To get started with Git, you need to install it on your computer. Instead of following different steps for each operating system, you can download Git directly from the official website:
 
@@ -60,7 +60,7 @@ git config --list
 
 ---
 
-#### **4\. Basic Git Commands (25 minutes)**
+#### **4\. Basic Git Commands**
 
 Understanding Git commands is essential for managing your project effectively. Below, we'll explore each command, focusing on **what** it does and **why** it's important in your Git workflow.
 
