@@ -124,7 +124,7 @@ git status -s
     or
 
     ```bash
-    git add README.MD
+    git add README.md
     ```
 
 2.  **Adding All Changes at Once**\
@@ -147,14 +147,6 @@ git status -s
 
     This adds all `markdown` files in the current directory to the staging area.
 
-    **Example (Adding all `.md` files)**:
-
-    bash
-
-    Copy code
-
-    `git add *.md`
-
 ---
 
 **4.5 git commit**
@@ -164,11 +156,9 @@ git status -s
 
 Example (with a message):
 
-bash
-
-Copy code
-
-`git commit -m "Commit message"`
+    ```bash
+    git commit -m "Commit message
+    ```
 
 ---
 
