@@ -180,7 +180,7 @@ git status -s
     git add .
     ```
 
-3.  ##### **Adding Files with a Specific Extension**\
+3.  ##### **Adding Files with a Specific Extension**
 
     You can also add all files of a certain type by specifying a file extension. This is helpful when working with multiple files of the same type (e.g., all text files or markdown files).
 
