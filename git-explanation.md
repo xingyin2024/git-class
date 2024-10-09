@@ -34,12 +34,10 @@ To get started with Git, you need to install it on your computer. Instead of fol
 
 Once installed, open a terminal (Command Prompt on Windows or Terminal on macOS/Linux) and configure Git with your name and email, which will be attached to your commits.
 
-bash
-
-Copy code
-
+```bash
 `git config --global user.name "Your Name"
 git config --global user.email "you@example.com"`
+```
 
 Set your preferred text editor (e.g., Visual Studio Code) for writing commit messages:
 
@@ -49,8 +47,7 @@ Set your preferred text editor (e.g., Visual Studio Code) for writing commit mes
 
 Finally, check your configuration to ensure everything is set up:
 
-bash
-
-Copy code
-
+```bash
 `git config --list`
+
+```
