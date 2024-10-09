@@ -273,7 +273,7 @@ git config --global core.autocrlf true
 
 ---
 
-### **4.12 `git config --global core.autocrlf input` - (Mac/Linux)**
+### **4.12 - `git config --global core.autocrlf input` - (Mac/Linux)**
 
 - **What**: Configures Git to convert line endings only when committing (not when checking out), keeping the line endings as-is on Unix-based systems.
 - **Why**: This prevents line-ending conflicts while still allowing Windows users to handle them correctly.
@@ -281,6 +281,17 @@ git config --global core.autocrlf true
 ```bash
 git config --global core.autocrlf input
 ```
+
+### **4.13 - Removing Git from a Folder Locally**
+
+- **What**: This command removes Git tracking from the current folder, effectively "un-initializing" the Git repository.
+- **Why**: If you want to stop version controlling a folder but keep the folder and its contents intact, removing the `.git` folder will achieve this.
+
+```bash
+rm -rf .git
+```
+
+- **Summary**: This command deletes the hidden `.git` directory, which stores all Git version control data (commits, branches, etc.). The folder itself and its files remain untouched, but the folder will no longer be tracked by Git.
 
 ---
 
