@@ -1,47 +1,51 @@
 # Git Lesson - Structured Files
 
-This lesson is divided into multiple markdown files to provide an organized and clear learning path for students. Below is a guide to the files and their contents.
+=============================
+
+This lesson is divided into multiple markdown files, each offering a clear and organized path for learning Git. Below is a guide to the files and their contents, ordered by what should be read first.
 
 ## File Structure
 
-1. **git-explanation.md**
+1.  **read-before-class.md**
 
-   - This file contains a detailed explanation of what Git is, how it works, and why it is essential for version control in software development.
-   - Topics covered include:
-     - Introduction to Git
-     - Key Git concepts (e.g., version control, branches, commits)
-     - Basic Git commands
+    - This file includes instructions on how to set up Visual Studio Code for the Git class by enabling the `code .` command on both Mac and Windows.
+    - It serves as a precursor to the class, ensuring that students are ready to follow along with the examples and exercises in the Git class.
+    - Topics covered:
+      - Installing the `code .` command for VS Code on Mac and Windows
+      - Configuring line endings for different operating systems
+      - Why this setup is important for Git usage
 
-2. **read-before-class.md**
+2.  **git-explanations.md**
 
-   - This file includes instructions on how to set up Visual Studio Code for the Git class by enabling the `code .` command on Mac.
-   - It serves as a precursor to the class, ensuring that students are ready to follow along with the examples and exercises in the Git class.
-   - Topics covered:
-     - Installing the `code .` command for VS Code on Mac
-     - Why it’s important for Git usage
+    - This file contains a detailed explanation of what Git is, how it works, and why it is essential for version control in software development.
+    - Topics covered include:
+      - Introduction to Git and version control
+      - Key Git concepts such as commits, branches, and repositories
+      - Basic Git commands and their usage
 
-3. **hidden-contents-of-folders.md**
+3.  **multi-branch-work.md**
 
-   - This file explains how to display the contents of hidden files and folders on macOS using terminal commands like `ls -la`.
-   - Includes an in-depth explanation of what each part of the output means (permissions, ownership, timestamps, etc.).
-   - Topics covered:
-     - Listing hidden files on macOS
-     - Understanding directory structures and file permissions
+    - This file dives deep into Git's multi-branch workflow and best practices for managing branches in your projects.
+    - Topics covered include:
+      - Recommended multi-branching strategy (e.g., using `main` and `dev` branches)
+      - Best practices for branch naming conventions
+      - How to work with feature, bugfix, and release branches
+      - How to handle code reviews and merging strategies
 
-4. **cheatsheet.md**
-   - This file will contain a list of useful Git and Unix/Bash commands to help students work more efficiently with Git and the terminal.
-   - Topics to be covered (to be added later):
-     - Essential Git commands
-     - Useful terminal commands (e.g., for navigating directories, listing files, and managing files)
-     - Advanced Git commands (e.g., rebasing, stashing)
+4.  **git-commands.md**
 
-## How to Use This Lesson
-
-1. **Read the `read-before-class.md`** file before the Git class to ensure that you’ve set up your development environment correctly.
-2. **Refer to `git-explanation.md`** to get a comprehensive overview of Git and its core concepts.
-3. **Use `hidden-contents-of-folders.md`** to understand how to view and manage hidden files and directories in your project.
-4. **Consult `cheatsheet.md`** during and after the lesson to quickly reference important Git commands and terminal tips.
+    - This file contains a cheatsheet of useful Git commands to help students work more efficiently with Git.
+    - Topics covered:
+      - Essential Git commands for daily use (e.g., `add`, `commit`, `push`, `pull`)
+      - Advanced Git commands (e.g., `rebase`, `stash`, `merge`)
+      - Useful combinations and flags (e.g., `git log --oneline`, `git status -s`)
+      - Best practices for commit messages using CRUD conventions
 
 ---
 
-Make sure you complete the setup steps and review the files before attending the class. This structured approach will ensure a smooth learning experience!
+## How to Use This Lesson
+
+1.  **Start by reading `read-before-class.md`** to ensure your development environment is properly set up for the Git class.
+2.  **Refer to `git-explanations.md`** to get a solid foundation in Git concepts and commands.
+3.  **Use `multi-branch-work.md`** to understand how to effectively manage multiple branches in a real-world Git workflow.
+4.  **Consult `git-commands.md`** as a quick reference during and after the lesson to look up Git commands and best practices.
