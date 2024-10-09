@@ -43,11 +43,9 @@ git config --global user.email "you@example.com"`
 
 Set your preferred text editor (e.g., Visual Studio Code) for writing commit messages:
 
-bash
-
-Copy code
-
+```bash
 `git config --global core.editor "code --wait"`
+```
 
 Finally, check your configuration to ensure everything is set up:
 
