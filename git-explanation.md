@@ -78,4 +78,8 @@ or
 git -h
 ```
 
+Throughout this lesson, you’ll notice that many Git commands come with optional flags, like `-m` for providing a commit message, don't worry we will get into ddetails of that later.
+
+The most important concept to understand about these flags; is that they offer additional functionality and flexibility, so be prepared to encounter and use them frequently as we dive deeper into Git's features.
+
 ---
