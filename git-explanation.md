@@ -156,7 +156,7 @@ git status -s
 
 Example (with a message):
 
-    ```bash
+    ```
     git commit -m "Commit message
     ```
 
