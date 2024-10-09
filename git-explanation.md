@@ -92,6 +92,12 @@ Git follows a specific workflow to help manage changes:
 2.  **Staging Area**: A space where changes are prepared before they are committed. You can think of it as a "draft" of changes you want to save.
 3.  **Repository**: The saved history of your project, where committed changes are stored.
 
+<h1 align="center">
+  <a href="">
+    <img src="./assets/imgs/workflow.png" alt="Workflow">
+  </a>
+</h1>
+
 The basic Git workflow looks like this:
 
 1.  **Make Changes**: Modify files in your working directory.
@@ -100,11 +106,9 @@ The basic Git workflow looks like this:
 
 For example:
 
-bash
-
-Copy code
-
-`git add <filename>
-git commit -m "Describe what changed"`
+```bash
+git add <filename>
+git commit -m "Describe what changed"
+```
 
 The staging area gives you control over what goes into each commit, allowing you to review your changes and commit only those you are confident in.
