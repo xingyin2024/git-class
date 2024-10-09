@@ -155,7 +155,7 @@ One of Git's most powerful features is branching, which allows you to work on se
   git checkout -b fixBug01
 ```
 
-This command creates a new branch called `fixBug01` and immediately switches to it, so you can start working in that branch right away.
+    This command creates a new branch called `fixBug01` and immediately switches to it, so you can start working in that branch right away.
 
 - **Merging**: Once you're done working on a branch, you can merge it back into the main branch. This incorporates your changes into the main project.
 
