@@ -1,6 +1,7 @@
 ### Class Link
 
-(Zoom Link)[https://technigo-io.zoom.us/j/85449308709]
+[Zoom Link](https://technigo-io.zoom.us/j/85449308709)
+[Presentation Link](https://www.canva.com/design/DAGTFktQ_ts/74C_t4FsYd4F30t36D93mg/view?utm_content=DAGTFktQ_ts&utm_campaign=designshare&utm_medium=link&utm_source=editor#1)
 
 # Git Lesson - Structured Files
 
