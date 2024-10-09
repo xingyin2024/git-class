@@ -149,27 +149,25 @@ git status -s
 
 ---
 
-**4.5 git commit**
+**4.5 - git commit**
 
 - **What**: Records the changes from the staging area to the repository, saving a snapshot of your project's current state.
 - **Why**: Commits act as checkpoints in your project. They help you track progress, revert to previous states, and explain the context of the changes using a commit message.
 
 Example (with a message):
 
-    git commit -m "Commit message
+    git commit -m "Commit message"
 
 ---
 
-**4.6 git log**
+**4.6 - git log**
 
 - **What**: Displays the commit history, showing a list of past commits in reverse chronological order.
 - **Why**: Use this command to review the history of your project, including details like who made changes, when they were made, and what the commit message was.
 
-bash
-
-Copy code
-
-`git log`
+```bash
+git log
+```
 
 ---
 
