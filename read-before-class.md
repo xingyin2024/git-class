@@ -1,4 +1,6 @@
-# Read Before Class: Setting Up Visual Studio Code for Git
+# Read Before Class
+
+## Setting Up Visual Studio Code for Git
 
 This file includes instructions on how to set up Visual Studio Code (VS Code) for the Git class by enabling the `code .` command on both Mac and Windows. It serves as a precursor to the class, ensuring that students are ready to follow along with the examples and exercises in the Git class.
 
