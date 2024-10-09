@@ -103,6 +103,7 @@ The basic Git workflow looks like this:
 1.  **Make Changes**: Modify files in your working directory.
 2.  **Stage Changes**: Add the files you want to commit to the staging area using `git add`.
 3.  **Commit Changes**: Commit your staged changes to the repository using `git commit`.
+4.  **Push Changes**: Send your committed changes to a remote repository (like GitHub or GitLab) using git push. This makes your updates available to others or backs them up to the remote server.
 
 For example:
 
@@ -118,6 +119,12 @@ Real example by applying changes to the `README.md` file:
 git add README.md
 git commit -m "update - expanded content of the readme file"
 git push origin main
+```
+
+You can use logical expression combinators to write everything in 1 line for us OCD types
+
+```bash
+git add README.md && git commit -m "update - expanded content of the readme file" && git push origin main
 ```
 
 The staging area gives you control over what goes into each commit, allowing you to review your changes and commit only those you are confident in.
