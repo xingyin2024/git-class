@@ -173,25 +173,25 @@ One of Git's most powerful features is branching, which allows you to work on se
 
 When conflicts arise, Git marks the conflicting sections in the file. You can then manually edit these sections, stage the file, and commit the resolution.
 
-    ##### Scenario: Resolving a Conflict Between `main` and `bugFix01` Branches
+- Scenario: Resolving a Conflict Between `main` and `bugFix01` Branches
 
-      1.  **You're working on the `main` branch** and make changes to `example01.md`. You add some new content related to a feature you're working on.
+  1.  **You're working on the `main` branch** and make changes to `example01.md`. You add some new content related to a feature you're working on.
 
-      2.  **Create and switch to the `bugFix01` branch** to fix a bug. While on this branch, you modify the same file, `example01.md`, to address a bug found in the project.
+  2.  **Create and switch to the `bugFix01` branch** to fix a bug. While on this branch, you modify the same file, `example01.md`, to address a bug found in the project.
 
-      3.  **Switch back to the `main` branch** and make further changes to the same file, focusing on enhancing the feature.
+  3.  **Switch back to the `main` branch** and make further changes to the same file, focusing on enhancing the feature.
 
-      4.  **Attempt to merge `bugFix01` into `main`**. During the merge, Git identifies a conflict because both branches modified the same lines in `example01.md`.
+  4.  **Attempt to merge `bugFix01` into `main`**. During the merge, Git identifies a conflict because both branches modified the same lines in `example01.md`.
 
-      5.  **Open `example01.md`** and notice that Git has added conflict markers to highlight the differing sections from each branch. The sections from the `main` branch are marked separately from the changes made in `bugFix01`.
+  5.  **Open `example01.md`** and notice that Git has added conflict markers to highlight the differing sections from each branch. The sections from the `main` branch are marked separately from the changes made in `bugFix01`.
 
-      6.  **Resolve the conflict manually** by deciding which changes to keep. You can choose to keep one branch's changes, combine both, or modify the content to integrate both sets of updates.
+  6.  **Resolve the conflict manually** by deciding which changes to keep. You can choose to keep one branch's changes, combine both, or modify the content to integrate both sets of updates.
 
-      7.  **Stage the resolved file** to let Git know that you've resolved the conflict.
+  7.  **Stage the resolved file** to let Git know that you've resolved the conflict.
 
-      8.  **Commit the merge** to finalize the process and successfully combine the changes from both `main` and `bugFix01`.
+  8.  **Commit the merge** to finalize the process and successfully combine the changes from both `main` and `bugFix01`.
 
-      9.  **Verify the merge** by checking the status of your repository to ensure that everything has been properly merged.
+  9.  **Verify the merge** by checking the status of your repository to ensure that everything has been properly merged.
 
 ## **7\. Conclusion**
 
