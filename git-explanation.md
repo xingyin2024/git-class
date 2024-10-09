@@ -66,46 +66,40 @@ Understanding Git commands is essential for managing your project effectively. B
 
 ---
 
-**4.1 git init**
+**4.1 - git init**
 
 - **What**: Initializes a new, empty Git repository in the current directory.
 - **Why**: This is the first step in turning a regular directory into a Git-tracked project. It creates a `.git` folder that stores all the version control data.
 
-bash
-
-Copy code
-
-`git init`
+```bash
+git init
+```
 
 ---
 
-**4.2 git status**
+**4.2 - git status**
 
 - **What**: Shows the status of your working directory and the staging area, letting you know which files are modified, untracked, or staged for commit.
 - **Why**: This command gives you a snapshot of the current state of your project, helping you understand what changes are ready to commit and what still needs attention.
 
-bash
-
-Copy code
-
-`git status`
+```bash
+git status
+```
 
 ---
 
-**4.3 git status -s**
+**4.3 - git status -s**
 
 - **What**: Shows the status of your working directory and staging area in a short, compact format.
 - **Why**: This is useful when you want a quicker, cleaner view of your changes without the more verbose output of `git status`.
 
-bash
-
-Copy code
-
-`git status -s`
+```bash
+git status -s
+```
 
 ---
 
-**4.4 git add**
+**4.4 - git add**
 
 - **What**: Stages changes for the next commit. This command tells Git to include changes in the staging area, preparing them for a commit.
 - **Why**: The `git add` command gives you control over which changes to include in the next commit. You can choose to add specific files, groups of files based on patterns, or all changes at once.
@@ -119,19 +113,21 @@ Copy code
 
     **Example**:
 
-    bash
-
-    Copy code
-
-    `git add <filename>`
+    ```bash
+    git add <filename>
+    ```
 
     This adds just the specified file to the staging area. For example:
 
-    bash
+    ```bash
+    git add index.html
+    ```
 
-    Copy code
+    or
 
-    `git add index.html`
+    ```bash
+    git add README.MD
+    ```
 
 2.  **Adding All Changes at Once**\
     To stage all the changes in your current directory, you can use the `.` flag. This adds all modified and untracked files to the staging area.
