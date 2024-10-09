@@ -1,3 +1,7 @@
+### Class Link
+
+(Zoom Link)[https://technigo-io.zoom.us/j/85449308709]
+
 # Git Lesson - Structured Files
 
 This lesson is divided into multiple markdown files, each offering a clear and organized path for learning Git. Below is a guide to the files and their contents, ordered by what should be read first.
