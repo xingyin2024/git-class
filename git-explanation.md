@@ -66,7 +66,7 @@ Understanding Git commands is essential for managing your project effectively. B
 
 ---
 
-### **4.1 - git init**
+### **4.1 - `git init`**
 
 - **What**: Initializes a new, empty Git repository in the current directory.
 - **Why**: This is the first step in turning a regular directory into a Git-tracked project. It creates a `.git` folder that stores all the version control data.
@@ -77,7 +77,7 @@ git init
 
 ---
 
-### **4.2 - git status**
+### **4.2 - `git status`**
 
 - **What**: Shows the status of your working directory and the staging area, letting you know which files are modified, untracked, or staged for commit.
 - **Why**: This command gives you a snapshot of the current state of your project, helping you understand what changes are ready to commit and what still needs attention.
@@ -88,7 +88,7 @@ git status
 
 ---
 
-### **4.3 - git status -s**
+### **4.3 - `git status -s`**
 
 - **What**: Shows the status of your working directory and staging area in a short, compact format.
 - **Why**: This is useful when you want a quicker, cleaner view of your changes without the more verbose output of `git status`.
@@ -99,7 +99,7 @@ git status -s
 
 ---
 
-### **4.4 - git add**
+### **4.4 - `git add`**
 
 - **What**: Stages changes for the next commit. This command tells Git to include changes in the staging area, preparing them for a commit.
 - **Why**: The `git add` command gives you control over which changes to include in the next commit. You can choose to add specific files, groups of files based on patterns, or all changes at once.
@@ -152,7 +152,7 @@ git status -s
 
 ---
 
-### **4.5 - git commit**
+### **4.5 - `git commit`**
 
 - **What**: Records the changes from the staging area to the repository, saving a snapshot of your project's current state.
 - **Why**: Commits act as checkpoints in your project. They help you track progress, revert to previous states, and explain the context of the changes using a commit message.
@@ -163,7 +163,7 @@ Example (with a message):
 
 ---
 
-### **4.6 - git log**
+### **4.6 - `git log`**
 
 - **What**: Displays the commit history, showing a list of past commits in reverse chronological order.
 - **Why**: Use this command to review the history of your project, including details like who made changes, when they were made, and what the commit message was.
@@ -174,7 +174,7 @@ git log
 
 ---
 
-### **4.7 - git log --oneline**
+### **4.7 - `git log --oneline`**
 
 - **What**: A condensed version of `git log`, showing only one line per commit (including a shortened hash and commit message).
 - **Why**: This is helpful when you want a quick overview of the commit history without all the extra details.
@@ -185,7 +185,7 @@ git log --oneline
 
 ---
 
-### **4.8 - git diff**
+### **4.8 - `git diff`**
 
 - **What**: Shows the differences between various states of your project (working directory vs. staging area, or staging area vs. last commit).
 - **Why**: This command allows you to compare changes before staging or committing them, ensuring that you know exactly what has been modified.
@@ -198,7 +198,7 @@ git diff
 
 ---
 
-### **4.9 - git ls-files**
+### **4.9 - `git ls-files`**
 
 - **What**: Lists the files that Git is tracking.
 - **Why**: This command helps you verify which files are currently being tracked by Git, providing insight into the content of your repository.
@@ -209,7 +209,7 @@ git ls-files
 
 ---
 
-### **4.10 - git rm --cached -r <filename>**
+### **4.10 - `git rm --cached` -r <filename>**
 
 - **What**: Removes a file or folder from the staging area without deleting it from the working directory.
 - **Why**: Use this command when you mistakenly add a file or folder to Git and want to stop tracking it without removing it from your project.
@@ -228,7 +228,7 @@ git rm --cached -r <foldername>
 
 ---
 
-### **4.11 - git config --global core.autocrlf true - (Windows)**
+### **4.11 - `git config --global core.autocrlf true` - (Windows)**
 
 - **What**: Configures Git to automatically handle line ending conversions between Windows (CRLF) and Unix-based systems (LF).
 - **Why**: This prevents issues when collaborators are using different operating systems. On Windows, Git converts LF to CRLF when checking out files and converts back when committing.
@@ -239,7 +239,7 @@ git config --global core.autocrlf true
 
 ---
 
-### **4.12 git config --global core.autocrlf input - (Mac/Linux)**
+### **4.12 `git config --global core.autocrlf input` - (Mac/Linux)**
 
 - **What**: Configures Git to convert line endings only when committing (not when checking out), keeping the line endings as-is on Unix-based systems.
 - **Why**: This prevents line-ending conflicts while still allowing Windows users to handle them correctly.
